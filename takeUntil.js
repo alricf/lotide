@@ -1,3 +1,4 @@
+//CODE IMPLEMENTATION
 const eqArrays = function(array1, array2) {
   if (array1.length !== array2.length) {
     return false;
@@ -32,8 +33,7 @@ const takeUntil = function(array, callback) {
   return result;
 };
 
-
-
+//TEST CASES
 const data1 = [ 1, 2, 5, 7, 2, -1, 2, 4, 5 ];
 const results1 = takeUntil(data1, x => x < 0);
 
