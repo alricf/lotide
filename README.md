@@ -42,4 +42,4 @@ The following functions are currently implemented:
 * `letterPositions`: The function takes in a string and returns all the indices of the letter positions in the string.
 * `map`: The function takes in an array and a callback function and returns the result of the callback function on each item in the array.
 * `takeUntil`: The function takes in an array and a callback function and returns a slice of the array depending on the criteria specified by the callback function.
-* `without`: The function takes in a source array and an array of elements to remove from the array and returns the source array without the elements in the array that had elements to be removed from the source array.
+* `without`: The function takes in a source array and an array of elements to be removed. It returns the source array without the elements provided in the array of elements to be removed.
